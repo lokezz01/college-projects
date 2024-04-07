@@ -1,0 +1,11 @@
+h1,h2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: orange;
+}
+#div-el{
+    display: flex;
+    justify-content: center;
+    
+}
