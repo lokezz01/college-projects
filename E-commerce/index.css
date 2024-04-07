@@ -1,0 +1,31 @@
+.container {
+    list-style: none;
+    background-color: #333333;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300
+    
+}
+li{
+    display: inline;
+    padding-right: 50px;
+    text-decoration:double;
+    text-align:center;
+}
+li a{
+    color:white;
+}
+h3{
+    text-align: center;
+}
+li:hover{
+    background-color: cyan;
+}
+.container1{
+    text-align: center;
+    margin-top: 200px;
+}
+label{
+    text-align: left;
+}
+
