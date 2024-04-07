@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bike </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="path"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">AboutUs</a></li>
+        </ul>
+        <div class="image">
+            <li><img src="bike1.jpg" alt="bikeimage" onclick="show('bike1.png')"></li>
+            <li><img src="bike2.jpg" alt="bikeimage" onclick="show('bike2.png')"></li>
+            <li><img src="bike3.jpg" alt="bikeimage" onclick="show('bike3.png')"></li>
+        </div>
+        <div class="big">
+            <img src="bike3.jpg"  class="show">
+        </div>
+        <div class="content">
+            <p>Let's Ride</p>
+            <h1>start riding&nbsp;</h1>
+            <h4>lets gear up our bike</h4>
+        </div>
+
+    </div>
+    <script>
+        function show(img){
+            document.querySelector('.show').src=img;
+        }
+    </script>
+</body>
+
+</html>
